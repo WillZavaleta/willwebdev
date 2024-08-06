@@ -1,0 +1,27 @@
+[
+  {
+    "role": "Diseño y Desarrollo Web",
+    "organisation": "Google",
+    "experiences": ["Sitios Web Estáticos", 
+      "Sitios Web con integración a API's",
+      "Páginas Web Corporativas", 
+      "Portafolios en Línea",
+      "Landing Pages"
+    ],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Servicios Incluidos",
+    "organisation": "Netflix",
+    "experiences": [
+      "Dominio y Hosting (1 año)",
+      "Certificado de Seguridad SSL",
+      "Optimización SEO",
+      "Diseño Personalizado",
+      "Diseño Responsivo",
+      "Mantenimiento y soporte continuos"
+
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+]

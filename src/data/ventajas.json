@@ -1,0 +1,17 @@
+[
+  {
+    "ventaja": "Visibilidad y Alcance Global",
+    "descripcion": "Un sitio web está disponible las 24 horas del día, los 7 días de la semana, lo que permite a los clientes encontrar información sobre tu negocio en cualquier momento. Ademas te permite llegar a una audiencia más amplia.",
+    "imageSrc": "history/global.png"
+  },
+  {
+    "ventaja": "Credibilidad y Profesionalismo",
+    "descripcion": "Un sitio web bien diseñado y funcional ayuda a establecer una imagen profesional y confiable para tu negocio. Los consumidores a menudo buscan sitios web para verificar la legitimidad de un negocio, dando más confianza a los clientes sobre tus servicios.",
+    "imageSrc": "history/profesional.png"
+  },
+  {
+    "ventaja": "Ventaja Competitiva",
+    "descripcion": "Un sitio web bien diseñado puede diferenciarte de tus competidores y destacar tus fortalezas y ofertas únicas. Te permite implementar características innovadoras que pueden mejorar la experiencia del usuario.",
+    "imageSrc": "history/competir.png"
+  }
+]
