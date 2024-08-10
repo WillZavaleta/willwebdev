@@ -1,20 +1,33 @@
 [
   {
-    "role": "Diseño y Desarrollo Web",
+    "role": "Portfolio",
     "organisation": "Google",
-    "experiences": ["Sitios Web Estáticos", 
-      "Sitios Web con integración a API's",
-      "Páginas Web Corporativas", 
-      "Portafolios en Línea",
-      "Landing Pages"
+    "experiences": ["Un Portafolio Web es una herramienta esencial para mostrar tu trabajo, habilidades y experiencia profesional.",
+    "Es útil para autónomos, freelancers y profesionales en muchas industrias, ya que permite a los potenciales clientes o empleadores ver ejemplos de tu trabajo, y entender mejor tu estilo y capacidades."
     ],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/portafolio.png"
+  },
+  {
+    "role": "Landing Page",
+    "organisation": "Google",
+    "experiences": ["Página web independiente que ayuda a enfocar la atención del visitante y dirigirlo hacia una acción específica.",
+    "A menudo se utilizan para recolectar información de contacto de los visitantes a cambio de un recurso gratuito; convencer a los visitantes de realizar una compra o adquirir un servicio; o como página de registro a un evento."
+    ],
+    "imageSrc": "history/landing.png"
+  },
+  {
+    "role": "Web Corporativa",
+    "organisation": "Google",
+    "experiences": ["Es el sitio web oficial de una empresa u organización que tiene como objetivo representar y comunicar la identidad, valores y servicios de la empresa al público. ",
+    "Es útil para empresas que deseen establecer su marca de manera profesional, lo que puede mejorar su credibilidad y reputación en el mercado; ofrecer detalles claros sobre sus productos y proporcionar información de contacto."
+    ],
+    "imageSrc": "history/corp.png"
   },
   {
     "role": "Servicios Incluidos",
     "organisation": "Netflix",
     "experiences": [
-      "Dominio y Hosting (1 año)",
+      "Dominio y Hosting por 1 año",
       "Certificado de Seguridad SSL",
       "Optimización SEO",
       "Diseño Personalizado",
@@ -22,6 +35,6 @@
       "Mantenimiento y soporte continuos"
 
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/seo.png"
   }
 ]
