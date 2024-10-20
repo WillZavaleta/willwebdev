@@ -51,13 +51,13 @@ export const Contact = () => {
                             <a href="mailto:zavaleta.will@gmail.com">zavaleta.will@gmail.com</a>
                         </li>
                         <li className={styles.link}>
-                            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-                            <a href="">github.com/myname</a>
+                            <img src={getImageUrl("contact/instagram.png")} alt="Instagram icon" />
+                            <a href="https://instagram.com/will.zavaleta">instagram.com/will.zavaleta</a>
                         </li>
                         <li className={styles.link}>
-                            <img src={getImageUrl("contact/linkedinIcon.png")} alt="Linked icon" />
-                            <a href="">linked.com/myname</a>
-                        </li>
+                            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+                            <a href="https://github.com/WillZavaleta">github.com/WillZavaleta</a>
+                        </li>                        
                     </ul>
 
 

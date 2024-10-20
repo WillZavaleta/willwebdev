@@ -1,4 +1,6 @@
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import styles from './App.module.css'
+import { getImageUrl } from './utils'
 import { About } from './components/About/About'
 import { Contact } from './components/Contact/Contact'
 import { Experience } from './components/Experience/Experience'
@@ -10,6 +12,16 @@ function App() {
   return (
     
       <div className={styles.App}>
+        <FloatingWhatsApp 
+          phoneNumber={"+522283556682"} 
+          accountName={"WillWebDev"} 
+          statusMessage={"Normalmente responde en menos de 30 min"} 
+          chatMessage={"Hola! 🤝 \n Cómo puedo ayudarte?"} 
+          placeholder={"Escribe un mensaje"} 
+          darkMode={false} 
+          avatar={getImageUrl("hero/hero.jpg")}
+        />
+
         <Navbar />
         <Hero />
         <About />

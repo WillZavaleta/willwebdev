@@ -9,9 +9,9 @@ export const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hola, Soy Will!</h1>
             <p className={styles.description}>
-                Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Egresado de la Universidad Veracruzana, estoy aquí para ayudarte a destacar tu negocio o proyecto en línea. Siéntete libre de preguntar!
+                Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Soy egresado de la Universidad Veracruzana y estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Contáctame y realicemos tu Sitio Web!
             </p>
-            <a href="mailto:zavaleta.will@gmail.com" className={styles.contactBtn}>Contáctame</a>
+            <a href="#contacto" className={styles.contactBtn}>Contáctame</a>
         </div>
         <img src={getImageUrl("hero/hero.jpg")} alt="Mi foto" className={styles.heroImg}/>
         <div className={styles.topBlur}></div>

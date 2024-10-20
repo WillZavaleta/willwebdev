@@ -2,39 +2,41 @@
   {
     "role": "Portfolio",
     "organisation": "Google",
+    "descripcion": ["Muestra al mundo tu trabajo, habilidades y experiencia profesional."],
     "experiences": ["Un Portafolio Web es una herramienta esencial para mostrar tu trabajo, habilidades y experiencia profesional.",
     "Es útil para autónomos, freelancers y profesionales en muchas industrias, ya que permite a los potenciales clientes o empleadores ver ejemplos de tu trabajo, y entender mejor tu estilo y capacidades."
     ],
+    "precio": "$3,500.00",
     "imageSrc": "history/portafolio.png"
   },
   {
     "role": "Landing Page",
+    "descripcion": ["Capta la atención de tus visitantes y conviértelos en clientes potenciales."],
     "organisation": "Google",
     "experiences": ["Página web independiente que ayuda a enfocar la atención del visitante y dirigirlo hacia una acción específica.",
     "A menudo se utilizan para recolectar información de contacto de los visitantes a cambio de un recurso gratuito; convencer a los visitantes de realizar una compra o adquirir un servicio; o como página de registro a un evento."
     ],
+    "precio": "$3,500.00",
     "imageSrc": "history/landing.png"
   },
   {
     "role": "Web Corporativa",
+    "descripcion": ["Muestra al público la identidad, valores y servicios de tu empresa."],
     "organisation": "Google",
     "experiences": ["Es el sitio web oficial de una empresa u organización que tiene como objetivo representar y comunicar la identidad, valores y servicios de la empresa al público. ",
     "Es útil para empresas que deseen establecer su marca de manera profesional, lo que puede mejorar su credibilidad y reputación en el mercado; ofrecer detalles claros sobre sus productos y proporcionar información de contacto."
     ],
+    "precio": "$4,500.00",
     "imageSrc": "history/corp.png"
   },
   {
-    "role": "Servicios Incluidos",
-    "organisation": "Netflix",
-    "experiences": [
-      "Dominio y Hosting por 1 año",
-      "Certificado de Seguridad SSL",
-      "Optimización SEO",
-      "Diseño Personalizado",
-      "Diseño Responsivo",
-      "Mantenimiento y soporte continuos"
-
+    "role": "E-Commerce",
+    "descripcion": ["Vende tu producto o servicio en Internet mediante tu Tienda en Línea."],
+    "organisation": "Google",
+    "experiences": ["Es el sitio web oficial de una empresa u organización que tiene como objetivo representar y comunicar la identidad, valores y servicios de la empresa al público. ",
+    "Es útil para empresas que deseen establecer su marca de manera profesional, lo que puede mejorar su credibilidad y reputación en el mercado; ofrecer detalles claros sobre sus productos y proporcionar información de contacto."
     ],
-    "imageSrc": "history/seo.png"
+    "precio": "$6,500.00",
+    "imageSrc": "history/ecomerce.png"
   }
 ]

@@ -30,17 +30,17 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="cursor" />
+                        <img src={getImageUrl("about/serverIcon.png")} alt="server" />
                         <div className={styles.aboutItemText}>
                             <h3>Desarrollador Backend</h3>
                             <p>Tengo experiencia desarrollando API's y sistemas back-end óptimos y eficaces</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="cursor" />
+                        <img src={getImageUrl("about/uiIcon.png")} alt="ui" />
                         <div className={styles.aboutItemText}>
-                            <h3>Diseñador UI</h3>
-                            <p>He diseñado landing pages y sitios web personalizados con diseño único</p>
+                            <h3>Maquetación Web</h3>
+                            <p> Tengo experiencia transformando el diseño de un sitio web a código limpio y funcional</p>
                         </div>
                     </li>
 
