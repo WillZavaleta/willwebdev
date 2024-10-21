@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className={`${styles.content} ${'animate__animated animate__fadeInLeft animate__delay-3s'}`}>
             <h1 className={styles.title}>Hola, Soy Will!</h1>
             <p className={styles.description}>
-                Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Soy egresado de la Universidad Veracruzana y estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Contáctame y realicemos tu Sitio Web!
+                Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Soy egresado de la Universidad Veracruzana y estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Ponte en contacto y realicemos tu Sitio Web!
             </p>
             <a href="#contacto" className={styles.contactBtn}>Contáctame</a>
         </div>
