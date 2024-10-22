@@ -6,8 +6,10 @@
     "experiences": ["Un Portafolio Web es una herramienta esencial para mostrar tu trabajo, habilidades y experiencia profesional.",
     "Es útil para autónomos, freelancers y profesionales en muchas industrias, ya que permite a los potenciales clientes o empleadores ver ejemplos de tu trabajo, y entender mejor tu estilo y capacidades."
     ],
-    "precio": "$3,500.00",
-    "imageSrc": "history/portafolio.png"
+    "precio": "$3,200.00 MXN",
+    "usd": "$160.00 USD",
+    "imageSrc": "history/portafolio.png",
+    "fadein": "right"
   },
   {
     "role": "Landing Page",
@@ -16,8 +18,10 @@
     "experiences": ["Página web independiente que ayuda a enfocar la atención del visitante y dirigirlo hacia una acción específica.",
     "A menudo se utilizan para recolectar información de contacto de los visitantes a cambio de un recurso gratuito; convencer a los visitantes de realizar una compra o adquirir un servicio; o como página de registro a un evento."
     ],
-    "precio": "$3,500.00",
-    "imageSrc": "history/landing.png"
+    "precio": "$3,200.00 MXN",
+    "usd": "$160.00 USD",
+    "imageSrc": "history/landing.png",
+    "fadein": "left"
   },
   {
     "role": "Web Corporativa",
@@ -26,8 +30,10 @@
     "experiences": ["Es el sitio web oficial de una empresa u organización que tiene como objetivo representar y comunicar la identidad, valores y servicios de la empresa al público. ",
     "Es útil para empresas que deseen establecer su marca de manera profesional, lo que puede mejorar su credibilidad y reputación en el mercado; ofrecer detalles claros sobre sus productos y proporcionar información de contacto."
     ],
-    "precio": "$4,500.00",
-    "imageSrc": "history/corp.png"
+    "precio": "$4,500.00 MXN",
+    "usd": "$225.00 USD",
+    "imageSrc": "history/corp.png",
+    "fadein": "right"
   },
   {
     "role": "E-Commerce",
@@ -36,7 +42,9 @@
     "experiences": ["Es el sitio web oficial de una empresa u organización que tiene como objetivo representar y comunicar la identidad, valores y servicios de la empresa al público. ",
     "Es útil para empresas que deseen establecer su marca de manera profesional, lo que puede mejorar su credibilidad y reputación en el mercado; ofrecer detalles claros sobre sus productos y proporcionar información de contacto."
     ],
-    "precio": "$6,500.00",
-    "imageSrc": "history/ecomerce.png"
+    "precio": "$7,600.00 MXN",
+    "usd": "$380.00 USD",
+    "imageSrc": "history/ecomerce.png",
+    "fadein": "left"
   }
 ]

@@ -15,7 +15,7 @@ export const Hero = () => {
             <a href="#contacto" className={styles.contactBtn}>Contáctame</a>
         </div>
        
-        <img src={getImageUrl("hero/hero.jpg")} alt="Mi foto" className={` ${'animate__animated animate__fadeInRight animate__delay-2s'} ${styles.heroImg}`}/>        
+        <img src={getImageUrl("hero/hero.jpg")} alt="Mi foto" className={` ${'animate__animated animate__fadeInRight animate__delay-3s'} ${styles.heroImg}`}/>        
 
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>

@@ -35,8 +35,8 @@
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap; 
-    justify-content: space-between;     
-    gap: 40px;
+    justify-content: space-around;     
+    gap: 50px;
 }
 
 .historyItem {
@@ -97,11 +97,20 @@
     justify-content: space-evenly;
 }
 
-.containerImg span{
-    font-size: 16px;
-    background-color: #f03800;
+.containerprice{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.containerprice span{
+    font-size: 12px;    
+    background-color: #5fbcff;   
     border-radius: 5px;
     padding: 5px;
+}
+.containerprice span:nth-child(1){
+    background-color: #ff5f5f; 
 }
 
 .servicesContent{

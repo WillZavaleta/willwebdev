@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import { getImageUrl } from '../../utils'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../variants'
 
 import styles from './Contact.module.css'
 
@@ -46,18 +48,36 @@ export const Contact = () => {
                     <p>Comunícate conmigo!</p>
 
                     <ul className={styles.links}>
-                        <li className={styles.link}>
+                        <motion.li
+                            variants={fadeIn("right", 0.2)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.link}>
                             <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
                             <a href="mailto:zavaleta.will@gmail.com">zavaleta.will@gmail.com</a>
-                        </li>
-                        <li className={styles.link}>
+                        </motion.li>
+                        <motion.li
+                            variants={fadeIn("right", 0.2)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.link}>
                             <img src={getImageUrl("contact/instagram.png")} alt="Instagram icon" />
                             <a href="https://instagram.com/will.zavaleta">instagram.com/will.zavaleta</a>
-                        </li>
-                        <li className={styles.link}>
+                        </motion.li>
+                        <motion.li
+                            variants={fadeIn("right", 0.2)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.link}>
                             <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
                             <a href="https://github.com/WillZavaleta">github.com/WillZavaleta</a>
-                        </li>                        
+                        </motion.li>
                     </ul>
 
 
