@@ -3,13 +3,22 @@
 .container {
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 49px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;    
+}
+
+.containertext{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
 }
 
 .content {
@@ -22,42 +31,22 @@
 }
 
 .title {
-    font-size: 56px;
+    font-size: 64px;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 33px;
     background: linear-gradient(90deg, rgba(255, 255, 255 ,1) 70%, rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-}
-.title span{
-    opacity: 0;
-    font-size: 1px;
 }
 
 .description {
     font-size: 28px;
     font-weight: lighter;
-    margin-bottom: 20px;
-}
-
-.containerCedula{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-.cedula{
-    border-style: dotted;
-    border-width: 2px;
-    padding: 15px;
-}
-
-.cedula li{
-    list-style: none;
+    margin-bottom: 52px;
 }
 
 .contactBtn {
+    opacity: 0;
     text-decoration: none;
     background-color: #034055;
     color: var(--color-text);
@@ -79,6 +68,21 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;*/
+}
+
+.contenedorhabilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    text-align: left;
+    margin-top: -30px;
+}
+.contenedorhabilidades img{
+    width: 80px;
+    height: auto;
 }
 
 @keyframes floating {
@@ -120,22 +124,6 @@
     z-index: 0;
 }
 
-@media screen and (max-width: 1073px) {
-    .heroImg {
-        width: 50%;
-    }
-
-    .containerCedula{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 926px) {
-    .title {
-        margin-bottom: -40px;
-    }
-}
-
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
@@ -146,19 +134,8 @@
         text-align: center;
         padding-top: 25px;
     }
-    .title {
-        margin-bottom: 10px;
-    }
-    .heroImg {
-        width: 70%;
-    }
-}
 
-@media screen and (max-width: 463px) {
-    .title {
-        margin-bottom: -40px;
-    }
     .heroImg {
-        width: 90%;
+        width: 100%;
     }
 }

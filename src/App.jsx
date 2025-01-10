@@ -1,12 +1,8 @@
+import { Route, Routes } from 'react-router-dom';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import styles from './App.module.css'
 import { getImageUrl } from './utils'
-import { About } from './components/About/About'
-import { Contact } from './components/Contact/Contact'
-import { Experience } from './components/Experience/Experience'
-import { Hero } from './components/Hero/Hero'
-import { Navbar } from './components/Navbar/Navbar'
-import { Ventajas } from './components/Ventajas/Ventajas'
+import { HomePage } from './components/Pages/HomePage/HomePage';
 
 function App() {
   return (
@@ -21,13 +17,28 @@ function App() {
           darkMode={false} 
           avatar={getImageUrl("hero/hero.jpg")}
         />
+        {/* <Home /> */}
 
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Ventajas />
-        <Contact />
+        <Routes>
+            <Route index element={<HomePage />} />
+            <Route path="/" element={<HomePage />}/>            
+            <Route path="/paginas-web-xalapa" element={<HomePage />}/>
+            <Route path="/diseño-de-paginas-web-xalapa" element={<HomePage />}/>
+            <Route path="/venta-de-paginas-web-en-xalapa" element={<HomePage />}/>
+            <Route path="/venta-de-paginas-web-xalapa" element={<HomePage />}/>
+            <Route path="/desarrollo-de-paginas-web-xalapa" element={<HomePage />}/>
+            <Route path="/paginas-web-veracruz" element={<HomePage />}/>
+            <Route path="/venta-de-paginas-web-veracruz" element={<HomePage />}/>
+            <Route path="/diseño-de-paginas-web-veracruz" element={<HomePage />}/>
+
+            
+            <Route path="/desarrollador-web-freelance-xalapa" element={<HomePage />}/>
+            <Route path="/venta-de-paginas-web-xalapa" element={<HomePage />}/>
+            <Route path="/ventajas-de-tener-una-pagina-web" element={<HomePage />}/>
+            <Route path="/contacto-diseñador-web-xalapa" element={<HomePage />}/>
+        </Routes> 
+
+        
       </div>
     
   )

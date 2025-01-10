@@ -8,9 +8,9 @@ import services from "../../data/services.json"
 
 export const Experience = () => {
     return (
-        <section className={styles.container} id="servicios">
-            <h2 className={styles.title}>Servicios</h2>
-            <p className={styles.text}>Desarrollo Web a tu medida</p>
+        <section className={styles.container} id="venta-de-paginas-web-xalapa">
+            <h2 className={styles.title}>Brindo Servicios de Desarrollo Web a todo México desde Xalapa, Veracruz</h2>
+            {/* <p className={styles.text}>Desarrollo de Páginas Web personalizadas</p> */}
             <div className={styles.content}>
                 <ul className={styles.history}>
                     {history.map((historyItem, id) => {

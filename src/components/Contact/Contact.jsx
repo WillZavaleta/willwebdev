@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import { getImageUrl } from '../../utils'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
+import { NavLink } from 'react-router-dom'
 
 import styles from './Contact.module.css'
 
@@ -41,7 +42,7 @@ export const Contact = () => {
 
     return (
         <>
-            <footer id="contacto" className={styles.container}>
+            <footer id="contacto-diseñador-web-xalapa" className={styles.container}>
                 <div className={styles.text}>
 
                     <h2>Contacto</h2>
@@ -84,15 +85,25 @@ export const Contact = () => {
                 </div>
                 <form ref={form} className={`${styles.formulario}`} onSubmit={sendEmail}>
                     <label>Nombre</label>
-                    <input type="text" name="user_name" />
+                    <input type="text" name="user_name" required/>
                     <label>Email</label>
-                    <input type="email" name="user_email" />
+                    <input type="email" name="user_email" required/>
                     <label>Mensaje</label>
-                    <textarea name="message" />
+                    <textarea name="message" required/>
                     <input type="submit" value="Enviar" />
                 </form>
                 <div className={styles.bottomBlur}></div>
 
+                <div className={styles.enlaces}>
+                <NavLink to="/paginas-web-xalapa"></NavLink>
+                <NavLink to="/diseño-de-paginas-web-xalapa"></NavLink>
+                <NavLink to="/venta-de-paginas-web-en-xalapa"></NavLink>
+                <NavLink to="/venta-de-paginas-web-xalapa"></NavLink>
+                <NavLink to="/desarrollo-de-paginas-web-xalapa"></NavLink>
+                <NavLink to="/paginas-web-veracruz"></NavLink>
+                <NavLink to="/venta-de-paginas-web-veracruz"></NavLink>
+                <NavLink to="/diseño-de-paginas-web-veracruz"></NavLink>
+                </div>
 
             </footer>
             <div className={styles.marca}>

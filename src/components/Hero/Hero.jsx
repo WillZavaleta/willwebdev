@@ -7,18 +7,25 @@ import 'animate.css';
 export const Hero = () => {
   return (
     <section className={styles.container}>
-        <div className={`${styles.content} ${'animate__animated animate__fadeInLeft animate__delay-3s'}`}>
-            <h1 className={styles.title}>Hola, Soy Will!</h1>
-            <p className={styles.description}>
-                Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Soy egresado de la Universidad Veracruzana y estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Ponte en contacto y realicemos tu Sitio Web!
-            </p>
-            <a href="#contacto" className={styles.contactBtn}>Contáctame</a>
+      <div className={`${styles.content} ${'animate__animated animate__fadeInLeft animate__delay-3s'}`}>
+        <h1 className={styles.title}>Desarrollo de Páginas Web Profesionales <span>en Xalapa, Veracruz</span></h1>
+        <p className={styles.description}>
+          Hola, soy Will! Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Ponte en contacto y realicemos tu Sitio Web!
+        </p>
+        <div className={styles.containerCedula}>
+          <ul className={styles.cedula}>
+            <li>Lic. en Informática</li>
+            <li>Cédula: 9190609</li>
+            <li>Universidad Veracruzana</li>
+          </ul>
+          <a href="#contacto-diseñador-web-xalapa" className={styles.contactBtn}>Contáctame</a>
         </div>
-       
-        <img src={getImageUrl("hero/hero.jpg")} alt="Mi foto" className={` ${'animate__animated animate__fadeInRight animate__delay-3s'} ${styles.heroImg}`}/>        
+      </div>
 
-        <div className={styles.topBlur}></div>
-        <div className={styles.bottomBlur}></div>
+      <img src={getImageUrl("hero/hero.jpg")} alt="Diseñador de sitios web Xalapa" className={` ${'animate__animated animate__fadeInRight animate__delay-3s'} ${styles.heroImg}`} />
+
+      <div className={styles.topBlur}></div>
+      <div className={styles.bottomBlur}></div>
     </section>
   )
 }

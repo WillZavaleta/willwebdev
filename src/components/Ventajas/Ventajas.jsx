@@ -6,7 +6,7 @@ import ventajas from "../../data/ventajas.json"
 
 export const Ventajas = () => {
     return (
-        <section className={styles.container} id="ventajas">
+        <section className={styles.container} id="ventajas-de-tener-una-pagina-web">
             <h2 className={styles.title}>Ventajas de tener una Página Web</h2>
             <div className={styles.content}>
                 <ul className={styles.ventajas}>

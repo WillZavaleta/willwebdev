@@ -20,16 +20,16 @@ export const Navbar = () => {
             </div>
             <ul className={`${menuOpen ? styles.open : ""} ${'animate__animated animate__fadeInDown animate__delay-1s'}`}>
                 <li>
-                    <a href="#habilidades">Habilidades</a>
+                    <a href="#desarrollador-web-freelance-xalapa">Habilidades</a>
                 </li>
                 <li>
-                    <a href="#servicios">Servicios</a>
+                    <a href="#venta-de-paginas-web-xalapa">Servicios</a>
                 </li>
                 <li>
-                    <a href="#ventajas">Ventajas</a>
+                    <a href="#ventajas-de-tener-una-pagina-web">Ventajas</a>
                 </li>
                 <li>
-                    <a href="#contacto">Contacto</a>
+                    <a href="#contacto-diseñador-web-xalapa">Contacto</a>
                 </li>
             </ul>
         </nav>
