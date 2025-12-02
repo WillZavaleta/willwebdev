@@ -10,11 +10,11 @@ export const Hero = () => {
       <div className={`${styles.content} ${'animate__animated animate__fadeInLeft animate__delay-3s'}`}>
         <h1 className={styles.title}>Desarrollo de Páginas Web Profesionales <span>en Xalapa, Veracruz</span></h1>
         <p className={styles.description}>
-          Hola, soy Will! Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Ponte en contacto y realicemos tu Sitio Web!
+          Hola, soy Williams Zavaleta Vázquez! Soy Programador Full-Stack con 5 años de experiencia en Desarrollo Web. Estoy aquí para ayudarte a destacar tu negocio o imagen en Internet. Ponte en contacto y realicemos tu Sitio Web!
         </p>
         <div className={styles.containerCedula}>
           <ul className={styles.cedula}>
-            <li>Lic. en Informática</li>
+            {/* <li>Lic. en Informática</li> */}
             <li>Cédula: 9190609</li>
             <li>Universidad Veracruzana</li>
           </ul>

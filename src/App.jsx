@@ -35,6 +35,7 @@ function App() {
             <Route path="/desarrollador-web-freelance-xalapa" element={<HomePage />}/>
             <Route path="/venta-de-paginas-web-xalapa" element={<HomePage />}/>
             <Route path="/ventajas-de-tener-una-pagina-web" element={<HomePage />}/>
+            <Route path="/proceso-de-compra-de-proyecto-web" element={<HomePage />}/>
             <Route path="/contacto-diseñador-web-xalapa" element={<HomePage />}/>
         </Routes> 
 

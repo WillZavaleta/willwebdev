@@ -5,6 +5,7 @@ import { Experience } from '../../Experience/Experience'
 import { Hero } from '../../Hero/Hero'
 import { Navbar } from '../../Navbar/Navbar'
 import { Ventajas } from '../../Ventajas/Ventajas'
+import { Proceso } from '../../Proceso/Proceso'
 
 export const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ export const HomePage = () => {
         <About/>
         <Experience/>
         <Ventajas/>
+        <Proceso />
         <Contact/>
     </>
   )

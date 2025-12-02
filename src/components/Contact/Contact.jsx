@@ -69,7 +69,7 @@ export const Contact = () => {
                             <img src={getImageUrl("contact/instagram.png")} alt="Instagram icon" />
                             <a href="https://instagram.com/will.zavaleta">instagram.com/will.zavaleta</a>
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                             variants={fadeIn("right", 0.2)}
                             initial="hidden"
                             whileInView={"show"}
@@ -78,7 +78,7 @@ export const Contact = () => {
                             className={styles.link}>
                             <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
                             <a href="https://github.com/WillZavaleta">github.com/WillZavaleta</a>
-                        </motion.li>
+                        </motion.li> */}
                     </ul>
 
 

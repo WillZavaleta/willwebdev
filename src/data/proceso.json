@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Solicitud",
+    "imageSrc": "process/uno.png",
+    "description": "Solicite el Proyecto Web deseado.",
+    "fadein": "right"
+  },
+  {
+    "title": "Prototipo",
+    "imageSrc": "process/dos.png",
+    "description": "Desarrollo el prototipo del Sitio Web.",
+    "fadein": "left"
+  },
+  {
+    "title": "Validación",
+    "imageSrc": "process/tres.png",
+    "description": "Valida el prototipo y realiza un primer pago.",
+    "fadein": "right"
+  },
+  {
+    "title": "Publicación",
+    "imageSrc": "process/cuatro.png",
+    "description": "Enlazo su Página Web a su dominio y la publico en Internet.",
+    "fadein": "left"
+  },
+  {
+    "title": "Pago",
+    "imageSrc": "process/cinco.png",
+    "description": "Efectua el pago del monto restante.",
+    "fadein": "right"
+  },
+  {
+    "title": "Cliente Satisfecho",
+    "imageSrc": "process/believe.png",
+    "description": "Gracias por su compra!",
+    "fadein": "left"
+  }
+]

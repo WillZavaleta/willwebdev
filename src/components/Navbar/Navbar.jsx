@@ -8,7 +8,9 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <nav>
-            <a to="/" className={`${styles.title} ${'animate__animated animate__bounce'}`}><img className={styles.logo} src={getImageUrl("logo.png")} alt="" /></a>
+            {/* <a to="/" className={`${styles.title} ${'animate__animated animate__bounce'}`}><img className={styles.logo} src={getImageUrl("logo.png")} alt="" />hola</a> */}
+            <a to="/" className={`${styles.title} ${'animate__animated animate__bounce'}`}>Williams Zavaleta Vázquez</a>
+
             
             <div className={styles.menu} onClick={()=>{
                 setMenuOpen(!menuOpen)

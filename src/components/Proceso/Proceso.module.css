@@ -1,0 +1,126 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 12%;
+    margin-right: 12%;  
+    
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.procesoItems {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* .procesoItems :nth-child(2){
+    margin-top: 25px;
+}
+.procesoItems :nth-child(3){
+    margin-top: 50px;
+}
+.procesoItems :nth-child(4){
+    margin-top: 75px;
+}
+.procesoItems :nth-child(5){
+    margin-top: 100px;
+} */
+
+.procesoItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 20px 20px 20px 10px;
+    width: 270px;
+    background-image: linear-gradient(90deg, #034055 0%, rgba(3, 64, 85, 0) 100%);
+    /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%); */
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.procesoItem:hover {
+    background-size: 100% 100%;
+}
+
+.procesoItems :nth-child(6) img{
+    width: 40%;
+    margin-right: 10px;
+}
+.procesoItems :nth-child(6){
+    background-size: 0% 100%;
+}
+
+.procesoItem h3 {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    margin-bottom: 8px;
+}
+
+.procesoItem p {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin: 0 8%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 0 5px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .skills{        
+        justify-content: space-around;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
